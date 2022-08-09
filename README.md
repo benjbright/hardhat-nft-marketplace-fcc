@@ -10,6 +10,8 @@
 - 'updateListing': Update price
 - 'withdrawProceeds': withdraw payment 
 
+### PART 1 NFT MARKETPLACE CONTRACTS
+
 23:46 NftMarketplace.sol
 - ```yarn add --dev @openzeppelin/contracts```
 - Challenge on ```listItem``` function - have the contract accept payment in a subset of tokens as well
@@ -22,7 +24,21 @@
 - Example contracts and solutions - https://solidity-by-example.org/hacks/re-entrancy/
 - Can also use the openzeppelin ```ReentrancyGuard.sol``` modifier contract
 
-1:00:26 Deploy scripts and testing
+1:00:26 Deploy 
+
+1:00:32 Testing 
+- Remember to check the coverage using ```yarn hardhat coverage```
+
+1:00:44 Scripts
+- Need scripts to mint and buy NFT's
+- Remember can use ```yarn hardhat node``` to set up the local node for testing
+- When you set up the node it first runs the deploy scripts to deploy the contracts
+- ```yarn hardhat run .\scripts\mint-and-list.js --network localhost```
+
+### PART 2 MORALIS FRONT END
+
+1:00:48 Moralis Front End
+
 
 
 
