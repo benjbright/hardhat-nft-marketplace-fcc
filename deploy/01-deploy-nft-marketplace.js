@@ -27,3 +27,9 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
 }
 
 module.exports.tags = ["all", "nftmarketplace"]
+
+// NFT Marketplace contract deployed to Rinkeby test network - address:
+// 0xAF832a1ed9a7C62983BA812B3c97a938eD2b77f7
+
+// BasicNFT contract deployed to Rinkeby test network - address:
+// 0x8E4d5bd6ac29A36cCf22E822fC040fE6299ce108

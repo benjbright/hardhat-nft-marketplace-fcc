@@ -39,6 +39,10 @@
 
 1:00:48 Moralis Front End
 
+1:03:59 Deploy the marketplace to Rinkeby test network
+- ```yarn hardhat deploy --network rinkeby```
+
+
 
 
 
